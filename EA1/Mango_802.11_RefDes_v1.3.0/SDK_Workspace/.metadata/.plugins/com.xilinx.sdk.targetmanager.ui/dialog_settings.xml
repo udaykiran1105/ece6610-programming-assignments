@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="G:\MS\Mango_802.11_RefDes_v1.3.0\EDK_Projects\Mango_802.11_RefDes_v1.3.0\SDK_Workspace\wlan_mac_low_dcf\Debug\wlan_mac_low_dcf.elf" key="Mango_802.11_RefDes_v1.3.0_hw_platform-mb_low-initElf"/>
+	<item value="G:\MS\Mango_802.11_RefDes_v1.3.0\EDK_Projects\Mango_802.11_RefDes_v1.3.0\SDK_Workspace\wlan_mac_high_sta\Debug\wlan_mac_high_sta.elf" key="Mango_802.11_RefDes_v1.3.0_hw_platform-mb_high-initElf"/>
+	<item value="G:\MS\Mango_802.11_RefDes_v1.3.0\EDK_Projects\Mango_802.11_RefDes_v1.3.0\SDK_Workspace\Mango_802.11_RefDes_v1.3.0_hw_platform\system_bd.bmm" key="Mango_802.11_RefDes_v1.3.0_hw_platform-bmmFile"/>
+	<item value="G:\MS\Mango_802.11_RefDes_v1.3.0\EDK_Projects\Mango_802.11_RefDes_v1.3.0\SDK_Workspace\Mango_802.11_RefDes_v1.3.0_hw_platform\system.bit" key="Mango_802.11_RefDes_v1.3.0_hw_platform-bitFile"/>
+</section>

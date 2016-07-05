@@ -1,0 +1,1411 @@
+!SESSION 2015-11-08 16:03:52.507 -----------------------------------------------
+eclipse.buildId=Release 14.4 Build SDK_P.49d
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:08:58.792
+!MESSAGE Indexed 'wlan_bsp_cpu_high' (97 sources, 83 headers) in 4.30 sec: 3,689 declarations; 21,817 references; 30 unresolved inclusions; 0 syntax errors; 227 unresolved names (0.88%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:09:01.449
+!MESSAGE Indexed 'wlan_mac_high_ap' (18 sources, 105 headers) in 2.58 sec: 6,307 declarations; 21,473 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:09:03.105
+!MESSAGE Indexed 'wlan_mac_high_sta' (20 sources, 107 headers) in 1.62 sec: 6,334 declarations; 20,572 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:09:03.714
+!MESSAGE Indexed 'wlan_mac_low_nomac' (4 sources, 58 headers) in 0.58 sec: 2,976 declarations; 5,044 references; 13 unresolved inclusions; 0 syntax errors; 483 unresolved names (5.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:09:04.902
+!MESSAGE Indexed 'wlan_mac_high_ibss' (20 sources, 107 headers) in 1.14 sec: 6,353 declarations; 20,687 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:09:04.980
+!MESSAGE Indexed 'wlan_bsp_cpu_low' (0 sources, 8 headers) in 0.06 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 16:09:05.464
+!MESSAGE Indexed 'wlan_mac_low_dcf' (4 sources, 48 headers) in 0.47 sec: 2,863 declarations; 6,179 references; 19 unresolved inclusions; 0 syntax errors; 169 unresolved names (1.83%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.356
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_l.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_l.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.356
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_l.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.356
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.356
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.371
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_bd.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_bd.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.371
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_bd.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.371
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.371
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.387
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.387
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xaxicdma_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.387
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xdebug.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xdebug.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.387
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axicdma_v2_01_a/src/xdebug.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.403
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.403
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.418
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_bd.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_bd.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.418
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_bd.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.418
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_bdring.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_bdring.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.418
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_bdring.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.434
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.434
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xaxidma_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.434
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xdebug.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xdebug.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.434
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axidma_v7_01_a/src/xdebug.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.449
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xaxiethernet.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xaxiethernet.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.449
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xaxiethernet.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.449
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xaxiethernet_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xaxiethernet_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.449
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xaxiethernet_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.449
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xdebug.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xdebug.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.449
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/axiethernet_v3_00_a/src/xdebug.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.465
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/bram_v3_01_a/src/xbram.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/bram_v3_01_a/src/xbram.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.465
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/bram_v3_01_a/src/xbram.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.465
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/bram_v3_01_a/src/xbram_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/bram_v3_01_a/src/xbram_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.465
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/bram_v3_01_a/src/xbram_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.481
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xbasic_types.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xbasic_types.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.481
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xbasic_types.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.481
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xenv.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xenv.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.481
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xenv.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.496
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xenv_standalone.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xenv_standalone.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.496
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xenv_standalone.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.496
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xparameters.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xparameters.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.496
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xparameters.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.512
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xstatus.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xstatus.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.512
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xstatus.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.512
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xutil.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xutil.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.512
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xutil.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.528
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xversion.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xversion.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.528
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/common_v1_00_a/src/xversion.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.528
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/cpu_v1_14_a/src/xio.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/cpu_v1_14_a/src/xio.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.528
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/cpu_v1_14_a/src/xio.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.543
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.543
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.543
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.543
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.559
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio_l.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio_l.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.559
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/gpio_v3_00_a/src/xgpio_l.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.559
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.559
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.559
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.559
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.574
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc_l.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc_l.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.574
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/intc_v2_05_a/src/xintc_l.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.574
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xdebug.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xdebug.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.574
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xdebug.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.590
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xllfifo.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xllfifo.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.590
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xllfifo.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.590
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xllfifo_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xllfifo_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.590
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xllfifo_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.606
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xstreamer.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xstreamer.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.606
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/llfifo_v2_03_a/src/xstreamer.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.621
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mbox_v3_02_a/src/xmbox.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mbox_v3_02_a/src/xmbox.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.621
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mbox_v3_02_a/src/xmbox.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.621
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mbox_v3_02_a/src/xmbox_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mbox_v3_02_a/src/xmbox_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.621
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mbox_v3_02_a/src/xmbox_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.637
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mutex_v3_01_a/src/xmutex.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mutex_v3_01_a/src/xmutex.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.637
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mutex_v3_01_a/src/xmutex.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.653
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mutex_v3_01_a/src/xmutex_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mutex_v3_01_a/src/xmutex_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.653
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/mutex_v3_01_a/src/xmutex_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.668
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/bspconfig.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/bspconfig.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.668
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/bspconfig.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.668
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/mb_interface.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/mb_interface.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.668
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/mb_interface.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.684
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_exceptions_g.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_exceptions_g.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.684
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_exceptions_g.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.684
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_exceptions_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_exceptions_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.684
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_exceptions_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.699
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_interrupts_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_interrupts_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.699
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/microblaze_interrupts_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.699
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/_profile_timer_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/_profile_timer_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.699
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/_profile_timer_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.715
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/mblaze_nt_types.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/mblaze_nt_types.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.715
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/mblaze_nt_types.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.715
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/profile.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/profile.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.715
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/profile.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.731
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/profile_config.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/profile_config.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.731
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/profile/profile_config.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.731
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/pvr.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/pvr.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.731
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/pvr.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.746
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_assert.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_assert.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.746
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_assert.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.746
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_cache.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_cache.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.746
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_cache.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.762
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_exception.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_exception.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.762
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_exception.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.762
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_io.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_io.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.762
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_io.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.778
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_printf.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_printf.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.778
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_printf.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.778
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testcache.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testcache.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.778
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testcache.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.793
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testio.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testio.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.793
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testio.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.793
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testmem.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testmem.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.793
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_testmem.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.809
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_types.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_types.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.809
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/standalone_v3_08_a/src/xil_types.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.809
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/sysmon_v5_02_a/src/xsysmon.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/sysmon_v5_02_a/src/xsysmon.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.809
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/sysmon_v5_02_a/src/xsysmon.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.809
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/sysmon_v5_02_a/src/xsysmon_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/sysmon_v5_02_a/src/xsysmon_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.809
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/sysmon_v5_02_a/src/xsysmon_hw.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.824
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.824
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.824
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.824
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.840
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr_l.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr_l.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.840
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/tmrctr_v2_04_a/src/xtmrctr_l.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.856
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.856
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.856
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_i.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_i.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.856
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_i.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.871
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_l.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_l.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.871
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/uartlite_v2_00_a/src/xuartlite_l.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.871
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/v6_ddrx_v2_00_a/src/xv6_ddrx.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/v6_ddrx_v2_00_a/src/xv6_ddrx.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.871
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/v6_ddrx_v2_00_a/src/xv6_ddrx.h' does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-11-08 16:11:27.887
+!MESSAGE Error: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/v6_ddrx_v2_00_a/src/xv6_ddrx_hw.h' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/wlan_bsp_cpu_high/mb_high/libsrc/v6_ddrx_v2_00_a/src/xv6_ddrx_hw.h' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:291)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.core.parser.FileContent.create(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getCodeReader(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-11-08 16:11:27.887
+!MESSAGE Resource '/wlan_bsp_cpu_high/mb_high/libsrc/v6_ddrx_v2_00_a/src/xv6_ddrx_hw.h' does not exist.
+!SESSION 2015-11-09 14:58:01.942 -----------------------------------------------
+eclipse.buildId=Release 14.4 Build SDK_P.49d
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-11-09 14:58:52.865
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2015-11-09 14:58:56.193
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2015-11-09 14:58:56.193
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2015-11-09 14:58:56.193
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2015-11-09 14:58:56.193
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2015-11-09 14:58:56.193
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2015-11-09 14:58:56.193
+!MESSAGE OK

@@ -1,0 +1,10 @@
+elfcheck
+Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw
+../../Mango_802.11_RefDes_v1.3.0_hw_platform/system.xml -pe mb_low
+wlan_mac_low_dcf.elf 
+
+ELF file	: wlan_mac_low_dcf.elf
+elfcheck passed.

@@ -1,0 +1,5 @@
+
+**** Build of configuration Debug for project wlan_mac_high_ap ****
+
+make -j8 all 
+make: Nothing to be done for `all'.

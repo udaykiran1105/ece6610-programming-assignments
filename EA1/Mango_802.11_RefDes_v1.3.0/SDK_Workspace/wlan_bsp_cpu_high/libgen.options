@@ -1,0 +1,3 @@
+PROCESSOR=mb_high
+REPOSITORIES=-lp G:/MS/Mango_802.11_RefDes_v1.3.0/EDK_Projects/Mango_802.11_RefDes_v1.3.0 -lp C:/WARP_Repository/edk_user_repository
+HWSPEC=../Mango_802.11_RefDes_v1.3.0_hw_platform/system.xml
